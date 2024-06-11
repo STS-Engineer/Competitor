@@ -103,7 +103,7 @@ const ResMenu = styled.ul`
 const Item = styled.li`
     cursor: pointer;
     list-style: none;
-    color: gray;
+    color: black;
     margin: 1rem;
 `;
 

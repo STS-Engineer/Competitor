@@ -1,10 +1,10 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  user: 'adminavo',
+  user: 'sts',
   host: 'avo-adb-001.postgres.database.azure.com',
   database: 'web_app_competitor',
-  password: '$#fKcdXPg4@ue8AW',
+  password: 'qLvgoADHq58GdFuK',
   port: 5432, // Default PostgreSQL port
 });
 

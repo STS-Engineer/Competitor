@@ -14,7 +14,7 @@ function MapCharts() {
  
     const fetchCompanies = async () => {
         try {
-            const response = await axios.get('http://localhost:4000/companies');
+            const response = await axios.get('https://avo-adb-001.postgres.database.azure.com:5432/companies');
             const fetchedCompanies = response.data;
  
             setCompanies(fetchedCompanies);

@@ -49,7 +49,7 @@ function Mapbox() {
 
     const fetchCompanies = async () => {
         try {
-            const response = await axios.get('http://localhost:4000/companies');
+            const response = await axios.get('http://avo-adb-001.postgres.database.azure.com:5432/companies');
             setCompanies(response.data);
         } catch (error) {
             console.error('Error fetching companies: ', error);

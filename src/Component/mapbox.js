@@ -22,7 +22,7 @@ function Mapbox() {
         // Fetch companies when the component mounts
         fetchCompanies();
     }, []);
-
+        
     useEffect(() => {
         if (!map.current) {
             map.current = new mapboxgl.Map({

@@ -85,7 +85,8 @@ function Map() {
  
     const fetchCompanies = async () => {
         try {
-            const response = await axios.get('https://avo-competitor-map.azurewebsites.net/companies');
+            const response = await axios.get('https://avo-competitor-map.azurewebsites.net:5432
+/companies');
             setCompanies(response.data);
  
             // Extract company names from the fetched data

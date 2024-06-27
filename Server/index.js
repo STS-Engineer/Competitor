@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // Use cors middleware
 // Allow only requests from http://example.com
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'http://4.211.132.216:3000'
   }));
   
 app.use('/companies', companyRouter);
